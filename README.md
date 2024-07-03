@@ -32,6 +32,11 @@ TeraWarp is accessible as an open-source plugin for the Vaa3D platform. The tool
 
 ## - Windows
 
+
+
+
+## - Linux
+
 1. Download Qt 4.8.6. Compile the “Release” version and install it by run the following commands in a Terminal window.
 ```bash
 cd <unzipped_qt_source_code_folder>
@@ -40,10 +45,7 @@ make
 sudo make install
 ```
 
-
-## - Linux
-
-
+2. 
 
 
 # Run TeraWarp
