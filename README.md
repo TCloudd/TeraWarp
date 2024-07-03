@@ -1,2 +1,3 @@
-# TeraWarp
- TeraWarp can efficiently warp Terabyte-scale images within a reasonable time.
+# TeraWarp: Fast Terabyte-Scale Volumetric Image Warping Tool
+
+
