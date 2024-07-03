@@ -6,6 +6,8 @@
   - [Required device](#--Required-device)
   - [Optional device](#--Optional-device)
 - [Installation](#Installation)
+  - [Windows](#--Windows)
+  - [Linux](#--Linux)
 - [Run TeraWarp](#Run-TeraWarp)
 - [License](#license)
 
@@ -25,8 +27,21 @@ GPU: NVIDIA GeForce RTX 3090 GPU or better
 (Note: The time required for image warping is closely related to GPU, and we recommend using GPU to process the image.)
 
 # Installation
-TeraWarp is accessible as an open-source plugin for the Vaa3D platform. The tool supports Windows 64-bit systems and popular Linux distributions.
+TeraWarp is accessible as an open-source plugin for the Vaa3D platform. The tool supports Windows 64-bit systems and popular Linux distributions. The basis for successfully compiling TeraWarp is that you have installed Vaa3D.
 
+
+## - Windows
+
+### 1. Download Qt 4.8.6. Compile the “Release” version and install it by run the following commands in a Terminal window.
+\```bash
+cd <unzipped_qt_source_code_folder>
+./configure
+make
+sudo make install
+\```
+
+
+## - Linux
 
 
 
