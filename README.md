@@ -8,6 +8,7 @@
 - [License](#license)
 
 ## System requirments
+TeraWarp works on desktop computers, for terabyte-scale data, our recommended computer configurations for efficiency gains are as follows:
 
 
 
