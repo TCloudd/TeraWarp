@@ -3,6 +3,8 @@
 
 ## Contents
 - [System requirements](#System-requirments)
+- - [Required device](#Required-device)
+- - [Optional device](#Optional-device)
 - [Installation](#Installation)
 - [Run TeraWarp](#Run-TeraWarp)
 - [License](#license)
