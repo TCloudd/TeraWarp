@@ -9,7 +9,8 @@
   - [Windows](#--Windows)
   - [Linux](#--Linux)
 - [Run TeraWarp](#Run-TeraWarp)
-- [License](#license)
+  - [Interface](#--Interface)
+  - [Commandline](#--Commandline)
 
 # System requirments
 TeraWarp works on desktop computers, for terabyte-scale data, our recommended computer configurations for efficiency gains are as follows:
@@ -73,14 +74,18 @@ make
 ```
 
 
-
 # Run TeraWarp
+We provide two ways to run TeraWarp, one through the interface and one through the command line.
+
+## - Interface
+Open Vaa3D, select `Plug-In -> Tc -> TeraWarp` in the upper left corner of the interface, parameter selection via interface controls.
+
+## - Commandline
 
 
 
 
 
-# License
 
 
 
