@@ -45,7 +45,21 @@ make
 sudo make install
 ```
 
-2. 
+2. Download CUDA Toolkit 11.1 from [NVIDIA CUDA Toolkit download page](https://developer.nvidia.com/cuda-downloads) and run the installer:
+```bash
+sudo sh cuda_version_linux.run
+```
+
+3. Install OpenCV 3.1.0. 
+
+4. Download this project to (vaa3d project path)/vaa3d_tools/hackathon and edit `“plugin_Terawarp.pro”`, replace `CUDA_DIR` and `OpenCV_DIR` with the paths where CUDA and OpenCV are located on the current system.
+
+5. Open a terminal window in the current project path and run the following command:
+```bash
+qmake
+make
+```
+
 
 
 # Run TeraWarp
