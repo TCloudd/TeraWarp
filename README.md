@@ -32,7 +32,19 @@ TeraWarp is accessible as an open-source plugin for the Vaa3D platform. The tool
 
 ## - Windows
 
+1. Download Qt 4.8.6 (qt-opensource-windows-x86-vs2010-4.8.6.exe) from [QT official website](https://download.qt.io/archive/qt/4.8/4.8.6/). We recommend using the Visual Studio method of installation, here we are using Visual Studio 2013.
 
+2. Download CUDA Toolkit 11.1 from [NVIDIA CUDA Toolkit download page](https://developer.nvidia.com/cuda-downloads)
+
+3. Download OpenCV 3.1.0.
+
+4. Download this project to (vaa3d project path)/vaa3d_tools/hackathon and edit `“plugin_Terawarp.pro”`, replace `CUDA_DIR` and `OpenCV_DIR` with the paths where CUDA and OpenCV are located on the current system.
+
+5. Open command line Terminal in the Visual Studio 2013 folder. This will give you a command line window. Then run the following command:
+```bash
+qmake
+nmake -f Makefile.Release
+```
 
 
 ## - Linux
@@ -50,7 +62,7 @@ sudo make install
 sudo sh cuda_version_linux.run
 ```
 
-3. Install OpenCV 3.1.0. 
+3. Download OpenCV 3.1.0. 
 
 4. Download this project to (vaa3d project path)/vaa3d_tools/hackathon and edit `“plugin_Terawarp.pro”`, replace `CUDA_DIR` and `OpenCV_DIR` with the paths where CUDA and OpenCV are located on the current system.
 
