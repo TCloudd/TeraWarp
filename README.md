@@ -95,9 +95,9 @@ Open Vaa3D commandline, input ` v3d -x <TeraWarp> -f TeraWarp -i <input_image_su
     para_x:                  determined by deformation_mode (scaling:x-axis scaling factor (0.1-10), rotation:x-axis rotation angle (-180-180), translation:x-axis translation step)
     para_y:                  determined by deformation_mode (scaling:y-axis scaling factor (0.1-10), rotation:y-axis rotation angle (-180-180), translation:y-axis translation step)
     para_z:                  determined by deformation_mode (scaling:z-axis scaling factor (0.1-10), rotation:z-axis rotation angle (-180-180), translation:z-axis translation step)
-    newsize_x:               x dim of resized image (works only if resize_mode=1)\n");
-    newsize_y:               y dim of resized image (works only if resize_mode=1)\n");
-    newsize_z:               z dim of resized image (works only if resize_mode=1)\n")
+    newsize_x:               x dim of resized image (works only if resize_mode=1)
+    newsize_y:               y dim of resized image (works only if resize_mode=1)
+    newsize_z:               z dim of resized image (works only if resize_mode=1)
 ```
 
 
