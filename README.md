@@ -82,7 +82,23 @@ Open Vaa3D, select `Plug-In -> Tc -> TeraWarp` in the upper left corner of the i
 
 ## - Commandline
 
-
+Open Vaa3D commandline, input ` v3d -x <TeraWarp> -f TeraWarp -i <input_image_sub> <input_marker_sub> <input_marker_tar> -o <output_image_file> -p warp_mode device_mode resize_mode deformation_mode para_x para_y para_z newsize_x newsize_y newsize_z`. The specific parameters are explained as follows:
+```bash
+    input_image_sub:         input image file to be warped (subject image)
+    input_marker_sub:        marker file in subject image (markers in this file define the control points in subject image)
+    input_marker_tar:        marker file in target image (markers in this file define the control points in target image)
+    output_image_file:       output warped image file (warped image)
+    warp_mode:               selection of deformation mode (0:non-rigid, 1:rigid)
+    device_mode:             (0:CPU, 1:GPU)
+    resize_mode:             Whether to change the size of the output image (0:false, 1:true)
+    deformation_mode:        deformation methods (if warp_mode is 0, 0:affine, 1:TPS, 2:scaling, else, 0:rotation, 1:tranlation)
+    para_x:                  determined by deformation_mode (scaling:x-axis scaling factor (0.1-10), rotation:x-axis rotation angle (-180-180), translation:x-axis translation step)
+    para_y:                  determined by deformation_mode (scaling:y-axis scaling factor (0.1-10), rotation:y-axis rotation angle (-180-180), translation:y-axis translation step)
+    para_z:                  determined by deformation_mode (scaling:z-axis scaling factor (0.1-10), rotation:z-axis rotation angle (-180-180), translation:z-axis translation step)
+    newsize_x:               x dim of resized image (works only if resize_mode=1)\n");
+    newsize_y:               y dim of resized image (works only if resize_mode=1)\n");
+    newsize_z:               z dim of resized image (works only if resize_mode=1)\n")
+```
 
 
 
